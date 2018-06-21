@@ -1,7 +1,7 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="ssh://jonathanw@125.213.170.186:22/usr/bin/php" id="7187f4f9-f5d4-48d6-ba9d-364cbfab33d4" name="Remote PHP 7.2" debugger_id="php.debugger.XDebug">
+      <interpreter home="ssh://jonathanw@125.213.170.186:22/usr/bin/php" id="7187f4f9-f5d4-48d6-ba9d-364cbfab33d4" name="Remote PHP 7.2" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/php7/7.2.5/lib/php/extensions/no-debug-non-zts-20170718/xdebug.so">
         <remote_data HOST="125.213.170.186" PORT="22" USERNAME="jonathanw" PRIVATE_KEY_FILE="C:\Users\JonathanW\Documents\Jonathan Wang\identity.ppk" USE_KEY_PAIR="true" USE_AUTH_AGENT="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/jonathanw/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
