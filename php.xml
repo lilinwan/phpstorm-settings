@@ -2,7 +2,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="ssh://jonathanw@jonathan.logged.com:22/usr/bin/php" id="7187f4f9-f5d4-48d6-ba9d-364cbfab33d4" name="Remote PHP 7.2" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/php7/7.2.5/lib/php/extensions/no-debug-non-zts-20170718/xdebug.so">
-        <remote_data HOST="jonathan.logged.com" PORT="22" USERNAME="jonathanw" PRIVATE_KEY_FILE="C:\Users\JonathanW\Documents\Jonathan Wang\identity.ppk" USE_KEY_PAIR="true" USE_AUTH_AGENT="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/jonathanw/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data HOST="jonathan.logged.com" PORT="22" USERNAME="jonathanw" PRIVATE_KEY_FILE="" USE_KEY_PAIR="false" USE_AUTH_AGENT="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/jonathanw/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
@@ -150,7 +150,7 @@
             <configuration_option name="memcached.sess_sasl_username" value="" />
             <configuration_option name="memcached.sess_server_failure_limit" value="0" />
             <configuration_option name="memcached.store_retry_count" value="2" />
-            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="memory_limit" value="512M" />
             <configuration_option name="msgpack.error_display" value="1" />
             <configuration_option name="msgpack.illegal_key_insert" value="0" />
             <configuration_option name="msgpack.php_only" value="1" />
@@ -300,7 +300,7 @@
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
             <configuration_option name="xdebug.remote_host" value="127.0.0.1" />
-            <configuration_option name="xdebug.remote_log" value="/var/log/xdebug.log" />
+            <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
             <configuration_option name="xdebug.remote_timeout" value="200" />
