@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e1f3c054-a8a6-4319-b089-1c1aa20b835e" name="Jonathan's Dev" url="http://125.213.170.186">
-        <fileTransfer host="125.213.170.186" port="22" rootFolder="/var/www/html" accessType="SFTP">
+      <webServer id="e1f3c054-a8a6-4319-b089-1c1aa20b835e" name="Jonathan's Dev" url="http://jonathan.logged.com">
+        <fileTransfer host="jonathan.logged.com" port="22" privateKey="C:\Users\JonathanW\Documents\Jonathan Wang\identity.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
