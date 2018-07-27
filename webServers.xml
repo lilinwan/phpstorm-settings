@@ -10,15 +10,15 @@
         </fileTransfer>
       </webServer>
       <webServer id="73ba8dca-f40e-4dd8-9d5a-426e06af6558" name="DEV-LOGGED01-N01-LAB" url="http://192.168.180.133">
-        <fileTransfer host="192.168.180.133" port="22" rootFolder="/var/www/html" accessType="SFTP">
+        <fileTransfer host="192.168.180.133" port="22" privateKey="C:\Users\JonathanW\Documents\Jonathan Wang\identity.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="7d26f026-427d-4ad3-aaa1-248d66fa466e" name="DEV-LOGGED02-N02-LAB" url="http://192.168.180.134">
-        <fileTransfer host="192.168.180.134" port="22" rootFolder="/var/www/html" accessType="SFTP">
+      <webServer id="7d26f026-427d-4ad3-aaa1-248d66fa466e" name="DEV-LOGGED02-N02-LAB" url="http://192.168.180.133">
+        <fileTransfer host="192.168.180.133" port="22" rootFolder="/var/www/html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
