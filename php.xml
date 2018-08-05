@@ -1,4 +1,10 @@
 <application>
+  <component name="MessDetector">
+    <phpmd_settings_migrated />
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="ssh://jonathanw@192.168.180.133:22/usr/bin/php" id="7187f4f9-f5d4-48d6-ba9d-364cbfab33d4" name="192.168.180.133" debugger_id="php.debugger.XDebug" debugger_extension="/usr/local/php7/7.2.5/lib/php/extensions/no-debug-non-zts-20170718/xdebug.so">
